@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: "Genos", sans-serif;
+}
+
+.section1 {
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(160.55deg, #000179 -13.52%, #01003D 42.28%, rgba(0, 0, 0, 0.97) 77.06%);
+}
+
+nav .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+nav .nav div {
+    min-width: 450px;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 115px;
+}
+
+nav .nav img {
+    margin-left: 115px;
+}
+
+.fa-search {
+    height: 15px;
+    width: 15px;
+}
+
+nav .nav div .navigation {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav div .navigation li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    cursor: pointer;
+    list-style: none;
+}
+
+nav .nav div .navigation li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+nav .nav div .navigation li a:after {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #F94E55;
+    transition: all 0.5s ease-in;
+}
+
+nav .nav div .navigation li a:hover:after {
+    width: 5px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .Text {
+    margin-top: 20px;
+    margin-left: 115px;
+}
+
+.hero .Text h1 {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.18em;
+    color: #F94E55;
+    margin-bottom: 10px;
+}
+
+.hero .Text h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 15px;
+    /* or 33% */
+    letter-spacing: 0.13em;
+    margin-bottom: 40px;
+}
+
+.hero .Text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 77px;
+}
+
+.hero .Text button {
+    width: 200px;
+    height: 50.41px;
+    color: white;
+    background-color: #F94E55;
+    border-radius: 150px;
+    border: none;
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 15px;
+    transition: all 0.5s;
+}
+
+.hero .Text button:hover {
+    transform: scale(1.05);
+}
+
+.hero img {
+    transform: rotate(0deg)
+}
+
+.hero .nike {
+    position: absolute;
+    width: 750px;
+    height: 524.3px;
+    left: 20%;
+    top: 30%;
+}
+
+.section2 {
+    background-color: black;
+    height: 700px;
+    position: relative;
+}
+
+.linearGradient {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    top: 780px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 24.58%, rgba(0, 0, 0, 0.97) 100%);
+    z-index: 1;
+}
+
+.logo {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+}
+
+.container .Text h1 {
+    font-family: 'Genos';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.18em;
+    color: #FFAC00;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.container .Text h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 15px;
+    /* or 33% */
+    letter-spacing: 0.13em;
+    position: absolute;
+    margin-bottom: 40px;
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+.shoe_name {
+    font-family: 'Genos';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.18em;
+    color: #FFAC00;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 140px;
+}
+
+.nike2nd {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 16%;
+}
+
+.BB {
+    position: absolute;
+    top: 14%;
+    left: 28%;
+}
+
+.Airmax {
+    position: absolute;
+    top: 6%;
+    left: 20%;
+}
+
+.Huarache {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+
+.shoeDesp {
+    position: absolute;
+    left: 960px;
+    top: 390px;
+}
+
+.shoeSpecs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.priceTag {
+    margin-left: 10px;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: 'Genos';
+}
+
+.colorSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+}
+
+.colorCircle {
+    width: 10px;
+    height: 10.6px;
+    border: 1px solid white;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.Circle {
+    width: 10px;
+    height: 10.6px;
+    border: 1px solid #C4742A;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.Circle:hover {
+    background-color: #D39929;
+}
+
+.buyNow {
+    color: white;
+    width: 200px;
+    height: 50.6px;
+    background: #D39929;
+    border: 1px solid #C4742A;
+    border-radius: 200px;
+    font-style: normal;
+    font-family: 'Genos';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.chevron-arrow {
+    height: 11.16px;
+    width: 13.16px;
+    color: #FFAC00;
+    font-weight: bolder;
+}
+
+.controls {
+    display: flex;
+    width: 394px;
+    max-width: 394px;
+    min-width: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    position: absolute;
+    bottom: 50px;
+    left: 33%;
+}
+
+.nav-circle {
+    width: 70px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.chevron {
+    transition: all 0.3s;
+}
+
+.chevron:hover {
+    transform: scale(1.2);
+}
